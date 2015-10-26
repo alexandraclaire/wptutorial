@@ -1,0 +1,16 @@
+/*
+Theme Name: alextheme
+Theme URI: http://alexandra.carter.yoobee.net.nz
+Description: Wordpress template for theming.
+Author: Alex Carter
+Author URI: http://alexandra.carter.yoobee.net.nz
+Version: 0.0.1
+
+Tags: 
+
+License: MIT  
+
+General comments (optional).
+*/
+@import url('bootstrap/css/bootstrap.css'); 
+@import url('bootstrap/css/bootstrap-responsive.css'); 
