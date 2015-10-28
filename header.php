@@ -27,7 +27,7 @@ nav will apply to what is entered in pages and menus on WP Dashboard-->
     );
     ?>
 
-<nav class="navbar navbar-default" role="navigation"> 
+<nav class="navbar navbar-default" role="navigation" id="navigation"> 
 <!-- Brand and toggle get grouped for better mobile display --> 
   <div class="navbar-header"> 
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"> 
