@@ -30,11 +30,11 @@ nav will apply to what is entered in pages and menus on WP Dashboard-->
 <nav class="navbar navbar-default" role="navigation" id="navigation"> 
 <!-- Brand and toggle get grouped for better mobile display --> 
   <div class="navbar-header"> 
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"> 
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse" id="button"> 
       <span class="sr-only">Toggle navigation</span> 
-      <span class="icon-bar"></span> 
-      <span class="icon-bar"></span> 
-      <span class="icon-bar"></span> 
+      <span class="icon-bar" id="togglebar"></span> 
+      <span class="icon-bar" id="togglebar"></span> 
+      <span class="icon-bar" id="togglebar"></span> 
     </button> 
     <a class="brand" href="<?php echo site_url(); ?>"><?php bloginfo('name'); ?></a> 
   </div> 

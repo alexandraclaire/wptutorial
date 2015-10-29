@@ -6,7 +6,7 @@
 
 		<?php while ( have_posts() ) : the_post(); ?>
 
-			<article>
+			<article id="content">
 
 				<?php the_content(); ?>
 

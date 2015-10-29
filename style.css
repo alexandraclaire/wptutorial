@@ -33,20 +33,24 @@ General comments (optional).
 #navigation {
 	background:#58e4f0;
 	border:none;
+	padding-bottom:1em;
+	margin-bottom:2em;
 }
 .nav {
-	padding-left:5em;
+	float:right;
+	margin-right:5em;
 }
 .nav ul li a {
 	color:white;
-	font-size:20px;
+	font-size:25px;
 	font-family: 'Montserrat', sans-serif;
+	padding:1em 2em;
+}
+.nav ul li a:hover {
+	background:#58e4f0;
 }
 .navbar-toggle {
 	border:none;
-}
-.icon-bar {
-	color:white;
 }
 .brand {
 	font-family: 'Lobster', cursive;
@@ -57,11 +61,66 @@ General comments (optional).
 .row {
 	width:98%;
 	margin:0 auto;
+
 }
 .blog-post h3 a {
 	color:#58e4f0;
 	font-family: 'Montserrat', sans-serif;
 	font-size:30px;
+	font-weight:700;
 	text-shadow: 1px 1px 1px #dcdcdc;
+
+}
+#togglebar {
+	background:white;
+	width:30px;
+	margin-top:8px;
+	height:4px;
+	border-radius:2px;
+
+}
+#button:hover {
+	background:none;
+}
+h2 {
+	color:#f7528d;
+	font-weight:700;
+	margin-top:2em;
+	margin-bottom:2em;
+	font-family: 'Montserrat', sans-serif;
+	font-size:30px;
+}
+footer {
+	background:#58e4f0;
+	padding:2em;
+	margin-top:2em;
+	border-top:10px solid #b4f3f9;
+	bottom:0;
+}
+footer p {
+	text-align:center;
+	color:white;
+	font-family: 'Montserrat', sans-serif;
+}
+#content p {
+	font-family:helvetica;
+	font-size:18px;
+	line-height:28px;
+	padding-top:1em;
+	padding-bottom:1em;
+	letter-spacing:1.5px;
+}
+/*MEDIA QUERIES */
+@media screen and (min-width:600px) {
+	#content p{
+		width:60%;
+		float:right;
+	}
+	
+}
+@media screen and (min-width:960px) {
+	.brand {
+		padding-left:3em;
+	}
 
 }
