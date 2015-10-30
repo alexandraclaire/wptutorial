@@ -19,6 +19,7 @@ General comments (optional).
 
 .jumbotron {
  	background:#f7528d;
+ 	border:8px dotted orange;
 }
 #banner {
 	max-height:50vh;
@@ -45,30 +46,41 @@ General comments (optional).
 	font-size:25px;
 	font-family: 'Montserrat', sans-serif;
 	padding:1em 2em;
+	font-weight:700;
+	text-shadow:1px 1px 1px grey;
+	line-height:30px;
 }
 .nav ul li a:hover {
 	background:#58e4f0;
+	text-decoration:underline;
 }
 .navbar-toggle {
 	border:none;
 }
 .brand {
 	font-family: 'Lobster', cursive;
-	color:#b4f3f9;
+	color:#2aa1ba;
 	text-shadow:1px 1px white;
 	font-size:50px;
+	letter-spacing:3px;
 }
 .row {
 	width:98%;
 	margin:0 auto;
 
 }
+.blog-post {
+	margin-top:3em;
+	margin-bottom:4em;
+}
+
 .blog-post h3 a {
-	color:#58e4f0;
+	color:#5edeea;
 	font-family: 'Montserrat', sans-serif;
-	font-size:30px;
+	font-size:40px;
 	font-weight:700;
-	text-shadow: 1px 1px 1px #dcdcdc;
+	text-shadow: 1px 1px #3cb1bc;
+	line-height:50px;
 
 }
 #togglebar {
@@ -86,9 +98,9 @@ h2 {
 	color:#f7528d;
 	font-weight:700;
 	margin-top:2em;
-	margin-bottom:2em;
 	font-family: 'Montserrat', sans-serif;
-	font-size:30px;
+	font-size:40px;
+	text-shadow:1px 1px #f6f3f5;
 }
 footer {
 	background:#58e4f0;
@@ -106,18 +118,86 @@ footer p {
 	font-family:helvetica;
 	font-size:18px;
 	line-height:28px;
-	padding-top:1em;
 	padding-bottom:1em;
 	letter-spacing:1.5px;
 }
-/*MEDIA QUERIES */
-@media screen and (min-width:600px) {
-	#content p{
-		width:60%;
-		float:right;
-	}
-	
+
+#single {
+	width:80%;
+	max-width:960px;
+	margin:0 auto;
 }
+#single ol li, #single p{
+	padding-top:2em;
+	font-size:20px;
+	line-height:30px;
+
+}
+#single ol li img, #single img {
+	margin-top:1em;
+	border:6px dashed orange;
+}
+#single a {
+	font-family: 'Montserrat', sans-serif;
+	font-size:30px;
+	color:#f7528d;
+	margin:0 auto;
+
+}
+#respond {
+  margin:0 auto;
+  padding-top:3em;
+  width:88%;
+}
+#respond a {
+	color:#5edeea;
+	font-size:20px;
+}
+#comment {
+	max-width:70vw;;
+}
+#submit {
+	background:#f7528d;
+	color:white;
+	padding:1em;
+	border:none;
+	border-radius:3px;
+	font-size:20px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top:1em;
+}
+
+#content form p {
+	font-family: 'Montserrat', sans-serif;
+	font-size:25px;
+	line-height:40px;
+}
+#holla {
+	background:#f7528d;
+	color:white;
+	padding:1em;
+	border:none;
+	border-radius:3px;
+	font-size:20px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top:1em;
+}
+#alex {
+	margin-top:3em;
+	margin-bottom:3em;
+	margin-left:1em;
+}
+#letter {
+	margin-top:4em;
+	margin-bottom:5em;
+	margin-left:1em;
+}
+
+#content h2 {
+	margin-left:1.5em;
+}
+/*MEDIA QUERIES */
+
 @media screen and (min-width:960px) {
 	.brand {
 		padding-left:3em;

@@ -32,5 +32,7 @@ function theme_js() {
 // Adding the wp_enqueue_script to make the starting_theme_js function work
 add_action( 'wp_enqueue_scripts', 'theme_js');
 
-
+//Removes the user login bar at the top 
+add_filter( 'show_admin_bar', '__return_false' );
 ?>
+
